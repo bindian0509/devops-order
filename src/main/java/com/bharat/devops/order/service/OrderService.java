@@ -35,6 +35,6 @@ public class OrderService {
     }
 
     private UserDTO fetchUserDetailsFromUserId(Integer userId) {
-        return restTemplate.getForObject("http://USER-SERVICE/user/fetchUserById/" + userId, UserDTO.class);
+        return restTemplate.getForObject("http://USER-SERVICE/user/" + userId, UserDTO.class);
     }
 }
