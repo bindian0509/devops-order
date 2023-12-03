@@ -1,0 +1,22 @@
+{
+  "foodItemsList" : [
+    {
+      "id": 1,
+      "itemDescription": "Paneer tikka masala is an Indian dish of paneer tikka cheese served in a spiced gravy. It is a vegetarian alternative to chicken tikka masala.",
+      "itemName": "Paneer Tikka Masala",
+      "price": 360,
+      "quantity": 0,
+      "restaurantId": 1,
+      "veg": false
+    }
+  ],
+  "userId" : 2,
+  "restaurant": {
+    "address": "john@root.com",
+    "city": "Mumbai",
+    "id": 1,
+    "name": "Soda Bottle Openerwala",
+    "restaurantDescription": "36 ChinaTown, Borivali East, Mumbi, MH, INDIA"
+  }
+}
+// url - localhost:9094/order (POST)
